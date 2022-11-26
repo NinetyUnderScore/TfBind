@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(30, 30, 36);
+}
+input[type="text"], textarea {
+    background-color: rgb(75, 75, 88);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea {
+    width: 99.5%;
+    height: 200px;
+}
+input[type="button"] {
+    background-color: rgb(117, 117, 252);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    outline: none;
+    border-style: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px;
+}
+#rem, #del {
+    background-color: rgb(252, 117, 117);
+    border-radius: 5px;
+}
+#add {
+    background-color: rgb(117, 142, 252);
+    border-radius: 5px;
+}
+#lines {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    max-height: 400px;
+    max-width: 100%;
+    gap: 6px;
+    overflow: scroll;
+}
+#key {
+    width: 20px;
+}
+#cmd {
+    width: 200px;
+}
